@@ -27,11 +27,11 @@ for month in {01..12}; do
         
         # Intentar descargar el archivo
         if curl -s -f -o "$temp_file" "$url"; then
-            nums=$(awk -F',' 'NR>1 && $1 ~ /^56/ {print $1","$7}' "$temp_file" | wc -l)
+            nums=$(awk -F',' 'NR>1 && $1 ~ /^56/ && length($1) >= 11 {print $1","$7}' "$temp_file" | wc -l)
             echo "OK - Encontrados $nums números chilenos"
             
             # Procesar archivo si existe y extraer números chilenos
-            awk -F',' 'NR>1 && $1 ~ /^56/ {print $1","$7}' "$temp_file" >> "$output_file"
+            awk -F',' 'NR>1 && $1 ~ /^56/ && length($1) >= 11 {print $1","$7}' "$temp_file" >> "$output_file"
         else
             echo "Error - Archivo no encontrado"
         fi
@@ -42,8 +42,4 @@ total=$(wc -l < "$output_file")
 echo -e "\nProceso completado"
 echo "Total de números chilenos encontrados: $total"
 echo "Limpiando archivos temporales..."
-
-# Limpiar archivos temporales
 rm -rf "$temp_dir"
-
-echo "¡Proceso finalizado!"
