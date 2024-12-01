@@ -1,6 +1,11 @@
 # SpamChile
 Números de llamadas conocidas por ser SPAM. La mayoría de los números en esta DB son de Chile.
 
+# Motivación
+¿Por qué no usar Truecaller? Privacidad. Porque Truecaller utiliza tu agenda de contactos para alimentar su base de datos, cosa que SpamBlocker no hace. Otra alternativa como Yet Another Call Bloquer, que también era respetuosa con tu privacidad dejaron de actualizarse. SpamBlocker está en contínuo desarrollo.
+
+# Uso
+
 ¿Cómo usarla?
 
 Primero, Instalar SpamBlocker desde [F-Droid](https://f-droid.org/packages/spam.blocker)
