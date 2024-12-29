@@ -12,17 +12,55 @@ Primero, Instalar SpamBlocker desde [F-Droid](https://f-droid.org/packages/spam.
 
 Habilitarlo, configurarlo con las reglas que se quieran activar (incluir el uso de Base de Datos de Spam)
 
-Crear un Workflow (automatización) que actualice la DB con la frecuencia que quieras.
+Crear un Workflow (automatización) e importar copiando el siguiente JSON:
 
-1. Componente "HTTPS Download" con la URL https://raw.githubusercontent.com/racuna/SpamChile/refs/heads/main/ChileSpam.csv
-2. Componente "Parse CSV" con el siguiente patrón: `{'PhoneNumber': 'pattern'}`
-3. Componente "Import to Spam Database"
-4. Guardar con el nombre que quieras y activar.
+```
+{
+  "id": 5,
+  "desc": "SpamChile",
+  "schedule": {
+    "type": "Daily",
+    "time": {
+      "hour": 0,
+      "min": 0
+    }
+  },
+  "actions": [
+    {
+      "type": "HttpDownload",
+      "method": 0,
+      "url": "https://raw.githubusercontent.com/racuna/SpamChile/refs/heads/main/ChileSpam.csv",
+      "header": "",
+      "body": ""
+    },
+    {
+      "type": "ParseCSV",
+      "columnMapping": "{'PhoneNumber': 'pattern'}"
+    },
+    {
+      "type": "ConvertNumber",
+      "from": "(\\+)",
+      "flags": 5,
+      "to": ""
+    },
+    {
+      "type": "ImportAsRegexRule",
+      "description": "Spam Chile",
+      "priority": 11,
+      "isWhitelist": false,
+      "importType": "Replace"
+    }
+  ],
+  "enabled": true,
+  "workUUID": "8cc6c9a5-4059-477a-a3e2-29d76b8e9c38"
+}
+```
+Nota: Gracias a @aj3423 por su ayuda con el JSON
 
-Ejemplo:
-![Android config](https://nostpic.com/media/ff1a68c42082105d852c425bcb783c99e3c8fccafa6a93a22f3829e0ec9831cf/c1ea1b39042cdee9655a860a318ca653352f1fa253c6a3a5d7dc467009d28b70.webp "Capture")
+Ejemplo de cómo debería quedar después de haber hecho la importación:
+![Android config](https://i.postimg.cc/TYZx6h40/Screenshot-2024-12-28-21-17-45-620-spam-blocker-edit.jpg "Capture")
 
-Listo
+Listo, después de guardar puedes hacer un Test con lo que se ejecutará el workflow cargando la información necesaria.
 
 # Contribuciones
 
