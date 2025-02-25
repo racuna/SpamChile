@@ -1,68 +1,21 @@
 PhoneNumber,name
-+355.*,Albania
++17813334828,No solicitada
++1879564587,Spam EnelX
++1939401904,Robocall
 +225.*,Costa de Marfil
 +233.*,Ghana
 +234.*,Nigeria
-+56989333283,Estafa Whatsapp
-+56994331718,Robocall
-+56227147876,Televentas
-+56932243905,Robocall
-+56948532405,Estafa Whatsapp
-+56966592187,Robocall
-+56966591557,Robocall
-+56946333370,SMS Scam
-+56966593769,Robocall
-+56928010921,La que cuelga
-+56979457878,Grabación
-+56908964838,Ventas banco Security
-+56997891841,Grabación
-+56994958028,Grabación
-+56944419007,Cobranza falsa
-+56923992642,La que cuelga
-+56994291760,Robocall
-+56931004642,ventas telefónicas
-+56971941641,Robocall
-+56966666840,Silenciosa
-+56966588597,silenciosa
-+56954905177,estafa
-+56955573071,robocall
-+56946908160,robocall
-+56974342658,Robocall
-+56932161632,Robocall
-+56901860811,Ventas Scotia
-+56966578214,La que cuelga
-+1939401904,Robocall
-+56904332420,Ventas scotia
-+56912831330,Ventas Scotia
-+56973398892,Estafa cobranza
-+56928650269,La que cuelga
-+56966677708,Estafa cobranaza
-+56224024877,La que cuelga
-+639537649043,Estafa Crypto
-+56997301614,La que cuelga
-+56998643382,Ventas VTR
-+56966598019,La que cuelga
-+56443320104,Estafa falso Netflix
-+56976488562,Estafa tipo cobranza
-+56979257189,Estafa Recursos Humanos
-+56906462980,Ventas Scotia
-+56926086913,Ventas Scotia
-+56977597033,La que cuelga
-+56955571473,Robocall
-+56999698204,La que cuelga
-+56926158251,Ventas scotia
-+56928010892,Ventas Wom
-+56928010912,Ventas WOM
-+17813334828,No solicitada
-+1879564587,Spam EnelX
++355.*,Albania
 +37061653898,Estafa
 +441678449301,Estafa financiera
++442350861,Silenciosa
 +526623336604,Zoho ventas
 +551993497727,Estafa
 +56222993700,Ventas/Robocall
 +56223101000,Ventas VTR
 +56223272199,Silenciosa
 +56223409500,Spam Tapp
++56224024877,La que cuelga
 +56224782734,Encuestadora
 +56224997880,Silenciosa
 +56225739328,Silenciosa/Compara Online
@@ -72,6 +25,7 @@ PhoneNumber,name
 +56226521200,Cobranzas Los Leones/Telefónica
 +56226877956,Banco Security
 +56227126000,Parque del Recuerdo
++56227147876,Televentas
 +56227638900,Spam Uno Salud
 +56228824129,No solicitada
 +56228824441,Hogar de Cristo
@@ -80,8 +34,8 @@ PhoneNumber,name
 +56229140448,Spam CMR Falabella
 +56229141342,Phishing sms
 +56229394955,Caja Los Andes
-+56229479122,Silenciosa
 +562294791.*,Vendedores Claro/Movistar/Falabella
++56229479122,Silenciosa
 +56229568300,Política
 +56229751100,Ventas/Robocall
 +56232457875,Encuesta
@@ -151,6 +105,7 @@ PhoneNumber,name
 +56442461989,Robocall Caribean
 +56442628890,Spam Unimarc
 +56443260167,Llamada silenciosa
++56443320104,Estafa falso Netflix
 +56448545877,Parque del recuerdo
 +56448909000,Ventas
 +5656229479121,Spam Falabella
@@ -162,13 +117,18 @@ PhoneNumber,name
 +56752405286,La que cuelga
 +56899471946,Estafa del paquete 
 +56900990376,La que cuelga
++56901860811,Ventas Scotia
 +56902251601,Vendedora Scotia
 +56904116103,La que cuelga
 +56904152434,La que cuelga
 +56904183902,Scotia
 +56904186984,Seguros Scotia
++56904332420,Ventas scotia
++56906462980,Ventas Scotia
 +56906489320,Estafa RC Viajes
++56908964838,Ventas banco Security
 +56912229077,Vendedor Scotia
++56912831330,Ventas Scotia
 +56913086562,Vendedora Scotia
 +56914724149,Llamada Silenciosa
 +56918512092,Vendedora Scotia
@@ -192,8 +152,11 @@ PhoneNumber,name
 +56923887611,Silenciosa
 +56923899681,Robocall
 +56923961635,Estafa TikTok
++56923992642,La que cuelga
 +56925898991,Robocall Caja los Andes
++56926086913,Ventas Scotia
 +56926142043,Silenciosa
++56926158251,Ventas scotia
 +56926183795,Robocall
 +56926280524,La que cuelga
 +56926284230,La que cuelga
@@ -211,10 +174,17 @@ PhoneNumber,name
 +56928006706,Estafa Wom
 +56928006763,Silenciosa
 +56928006772,Chilombia móviles
++56928010892,Ventas Wom
++56928010912,Ventas WOM
++56928010921,La que cuelga
++56928650269,La que cuelga
 +56928650281,Ventas Internet
++56931004642,ventas telefónicas
 +56931457239,Estafa RC Viajes
 +56931773983,Estafa Robotcall
 +56932028245,BBVA cobranza (Fraude)
++56932161632,Robocall
++56932243905,Robocall
 +56932266022,Robocall
 +56932329809,Estafa Lider/BCI
 +56932346919,Robocall
@@ -246,18 +216,25 @@ PhoneNumber,name
 +56940678577,robocall
 +56940975084,Parque del recuerdo
 +56944156922,La que cuelga
++56944419007,Cobranza falsa
 +56944665308,Silenciosa
 +56944880678,Estafa Laborum
++56946333370,SMS Scam
 +56946574503,Estafa Recursos Humanos
++56946908160,robocall
 +56948445192,Estafa laboral
 +56948465371,Estafa Laborum
++56948532405,Estafa Whatsapp
 +56950184020,Vomistar
 +56950928568,Vtr móvil
 +56952056497,La que cuelga
 +56952073229,Ventas Claro
 +56952309832,Silenciosa
++56954905177,estafa
 +56955004482,Falabella
++569555706.*,Robocall
 +569555714.*,Robocall
++56955573071,robocall
 +56956455292,Robocall
 +56956520858,Ventas Banco Security
 +56956545712,Robot de llamadas
@@ -275,20 +252,32 @@ PhoneNumber,name
 +56964103029,Silenciosa
 +56965137799,La que cuelga
 +56966143418,La que cuelga
++56966578214,La que cuelga
++56966588597,silenciosa
++56966591557,Robocall
++56966592187,Robocall
++56966593769,Robocall
++56966598019,La que cuelga
++56966666840,Silenciosa
++56966677708,Estafa cobranaza
 +56966844040,Spam tarjeta Ripley
 +56968331854,Estafa Whatsapp
 +56968669969,llama y corta
 +56969931299,Silenciosa
 +56971007026,Vendedora Scotia
 +56971030930,Phishing sms estafa bancaria
++56971941641,Robocall
 +569719724577,Silenciosa
 +56972785183,Estafa del paquete perdido
++56973398892,Estafa cobranza
 +56973878309,Silenciosa
++56974342658,Robocall
 +56974345679,Spam tiktok
 +56975205587,Llamada Silenciosa
 +56975726628,Banco Security
 +56975818727,Estafa
 +56976455923,Tarjeta Ripley
++56976488562,Estafa tipo cobranza
 +56976617534,La que cuelga
 +56977078583,Vendedora Security
 +56977198083,Estafa caribeña
@@ -296,6 +285,7 @@ PhoneNumber,name
 +56977199941,Estafa caribeña
 +56977543386,Robocall
 +56977591299,Estafa Laborum
++56977597033,La que cuelga
 +56977607517,robocaller vtr
 +56977694060,Robocall
 +56977887690,Llama y corta
@@ -304,6 +294,8 @@ PhoneNumber,name
 +56978309026,llama y corta
 +56978853693,Spam
 +56978960282,Vomistar
++56979257189,Estafa Recursos Humanos
++56979457878,Grabación
 +56979916894,Ventas SalcoBrand
 +56980912539,Vendedora Scotia
 +56981879439,Estafa Subtel
@@ -316,20 +308,27 @@ PhoneNumber,name
 +56987582386,Estafa RRHH
 +56987587145,Rooocall
 +56988898086,Banco Falabella 
++56989333283,Estafa Whatsapp
 +56989593703,Vomistar
 +56991409291,Estafa RRHH
 +56992900331,Robocall
 +56993176267,Ejecutiva BCI Visa
++56994291760,Robocall
++56994331718,Robocall
 +56994879697,CMR Falabella ofreciendo tarjetas
++56994958028,Grabación
 +56995537374,Estafa TikTok
 +56995958030,Entel
 +56996934065,No solicitada
++56997301614,La que cuelga
++56997891841,Grabación
 +56998219429,Silenciosa
++56998643382,Ventas VTR
 +56998902870,Silenciosa
 +56998913458,Bci Visa
 +56998942297,Robocall
 +56999676946,Robocall
++56999698204,La que cuelga
 +56999937868,Parque del Recuerdo
-+816353406,Estafa del paquete perdido
-442350861,Silenciosa
-569555706.*,Robocall
++639537649043,Estafa Crypto
++816353406.*,Estafa del paquete perdido
