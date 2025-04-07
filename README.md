@@ -58,6 +58,7 @@ Crear un Workflow (automatización) e importar copiando el siguiente JSON:
 Nota: Gracias a @aj3423 por su ayuda con el JSON
 
 Ejemplo de cómo debería quedar después de haber hecho la importación:
+
 ![Android config](https://i.postimg.cc/TYZx6h40/Screenshot-2024-12-28-21-17-45-620-spam-blocker-edit.jpg "Capture")
 
 Listo, después de guardar puedes hacer un Test con lo que se ejecutará el workflow cargando la información necesaria.
