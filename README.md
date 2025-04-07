@@ -70,7 +70,7 @@ Busca primero si el Nro no existe (Ctr+F), y repórtalo en Issues con alguna des
 
 Este no es trabajo remunerado, pero si quieres enviar alguna propina. Igual es bienvenido:
 
-- **Satoshis:** racuna@zbd.gg
+- **Links Cripto:** https://plisio.net/donate/GevVszjz 
 - **Bitcoin:** 1CBTKY5hRQa1nfwwZ1YsJpjGBYY64jVQZ8
 - **Doge:** DNYcyvuDdw9MYvwGubLTv8ZzrDuDhCa74Z
 - **BCH:** bitcoincash:qzrr70nl5nppkslew0qywyx6hfsr97jux599003wcf
