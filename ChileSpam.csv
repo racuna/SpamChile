@@ -1,4 +1,6 @@
 PhoneNumber,name
++56600.*,Publicidad Masiva
++56809.*,Publicidad Masiva
 +56442170333,SMS Spam
 +56443320106,SMS Spam
 +56911019661,Scotia
@@ -223,8 +225,6 @@ PhoneNumber,name
 +56448545877,Parque del recuerdo
 +56448909000,Ventas
 +5656229479121,Spam Falabella
-+5660007778.*,Estafa Laborum
-+566000830075,Telemarketer
 +56612315922,Silenciosa
 +56642290475,Spam Security
 +56722810820,La que cuelga
@@ -446,6 +446,7 @@ PhoneNumber,name
 +56999937868,Parque del Recuerdo
 +639537649043,Estafa Crypto
 +816353406.*,Estafa del paquete perdido
+
 
 
 
