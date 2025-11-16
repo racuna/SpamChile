@@ -16,43 +16,50 @@ Crear un Workflow (automatización) e importar copiando el siguiente JSON:
 
 ```
 {
-  "id": 5,
-  "desc": "SpamChile",
-  "schedule": {
-    "type": "Daily",
-    "time": {
-      "hour": 0,
-      "min": 0
-    }
-  },
-  "actions": [
-    {
-      "type": "HttpDownload",
-      "method": 0,
-      "url": "https://raw.githubusercontent.com/racuna/SpamChile/refs/heads/main/ChileSpam.csv",
-      "header": "",
-      "body": ""
+    "id": 4,
+    "desc": "SpamChile",
+    "trigger": {
+        "type": "Schedule",
+        "enabled": true,
+        "schedule": {
+            "type": "Daily",
+            "time": {
+                "hour": 0,
+                "min": 0
+            }
+        },
+        "workUUID": "61c0fa79-95e9-4c89-a2f0-43a734dac480"
     },
-    {
-      "type": "ParseCSV",
-      "columnMapping": "{'PhoneNumber': 'pattern'}"
-    },
-    {
-      "type": "ConvertNumber",
-      "from": "(\\+)",
-      "flags": 5,
-      "to": ""
-    },
-    {
-      "type": "ImportAsRegexRule",
-      "description": "Spam Chile",
-      "priority": 11,
-      "isWhitelist": false,
-      "importType": "Replace"
-    }
-  ],
-  "enabled": true,
-  "workUUID": "8cc6c9a5-4059-477a-a3e2-29d76b8e9c38"
+    "actions": [
+        {
+            "type": "HttpDownload",
+            "method": 0,
+            "url": "https://raw.githubusercontent.com/racuna/SpamChile/refs/heads/main/ChileSpam.csv",
+            "header": "",
+            "body": "",
+            "enableRetry": false,
+            "retryTimes": 0,
+            "retryDelayMs": 0
+        },
+        {
+            "type": "ParseCSV",
+            "columnMapping": "{'PhoneNumber': 'pattern'}"
+        },
+        {
+            "type": "ConvertNumber",
+            "from": "(\\+)",
+            "flags": 5,
+            "to": ""
+        },
+        {
+            "type": "ImportAsRegexRule",
+            "description": "Spam Chile",
+            "priority": 11,
+            "isWhitelist": false,
+            "importType": "Replace",
+            "importAs": 0
+        }
+    ]
 }
 ```
 Nota: Gracias a @aj3423 por su ayuda con el JSON
