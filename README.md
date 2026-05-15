@@ -74,7 +74,7 @@ Listo, después de guardar puedes hacer un Test con lo que se ejecutará el work
 
 Como los spammers van cambiando constantemente de números, esta lista estará siempre limitada. O bien, estará en constante crecimiento. Si quieres añadir un nuevo número:
 
-Busca primero si el Nro no existe (Ctr+F), y repórtalo en Issues con alguna descripción. Lo añadiré tan pronto como pueda.
+Busca primero si el Nro no existe (Ctr+F), y repórtalo en [Issues](https://github.com/racuna/SpamChile/issues) con alguna descripción. Lo añadiré tan pronto como pueda.
 
 Este no es trabajo remunerado, pero si quieres enviar alguna propina. Igual es bienvenido:
 
