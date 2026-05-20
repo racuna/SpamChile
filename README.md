@@ -70,6 +70,8 @@ Ejemplo de cómo debería quedar después de haber hecho la importación:
 
 Listo, después de guardar puedes hacer un Test con lo que se ejecutará el workflow cargando la información necesaria.
 
+Este workflow actualizará la DB local cada medianoche. Puedes cambiar esto en 'time' al comienzo del JSON. Si quieres hacer una actualización manual, simplemente dale al botón Test del workflow y hará la carga del CSV nuevamente. 
+
 # Contribuciones
 
 Como los spammers van cambiando constantemente de números, esta lista estará siempre limitada. O bien, estará en constante crecimiento. Si quieres añadir un nuevo número:
