@@ -79,7 +79,4 @@ Busca primero si el Nro no existe (Ctr+F), y repórtalo en [Issues](https://gith
 Este no es trabajo remunerado, pero si quieres enviar alguna propina. Igual es bienvenido:
 
 - **Links Cripto:** https://plisio.net/donate/GevVszjz 
-- **Bitcoin:** 1CBTKY5hRQa1nfwwZ1YsJpjGBYY64jVQZ8
-- **Doge:** DNYcyvuDdw9MYvwGubLTv8ZzrDuDhCa74Z
-- **BCH:** bitcoincash:qzrr70nl5nppkslew0qywyx6hfsr97jux599003wcf
-- **Monero:** 41euZoUX31iL3hoBD1yYFpQ3kTFQDHpspEfS8LEbfArDBkeVLTSu9SBTuPSJN7Tu8udD5bBsQqh1gBULhT44K8q9NG4UBhs
+- **BCH:** bitcoincash:qqhketnlpn2uqvyg0tl7vhasktwsum6s8ua3sxhg9e
